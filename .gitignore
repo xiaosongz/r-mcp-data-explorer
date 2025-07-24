@@ -1,0 +1,50 @@
+# R specific
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# MCP logs
+logs/
+
+# Data files (except samples)
+data/*
+!data/sample_*.csv
+
+# DuckDB files
+*.duckdb
+*.duckdb.wal
+
+# Arrow datasets
+*.arrow
+*.parquet
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# R package build
+*.tar.gz
+
+# Temporary files
+*~
+*.swp
+*.tmp
+
+# Environment
+.env
+.Renviron
+
+# Node modules
+node_modules/
+
+# Output files
+*.pdf
+*.png
+*.jpg
+*.html
+!inst/examples/*.png

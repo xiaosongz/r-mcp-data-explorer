@@ -1,0 +1,42 @@
+# Core tidyverse packages
+dplyr
+tidyr
+ggplot2
+readr
+purrr
+tibble
+stringr
+forcats
+
+# Data handling
+arrow
+duckdb
+data.table
+dtplyr
+DBI
+
+# Visualization
+plotly
+ggplotly
+DT
+corrplot
+GGally
+
+# Utilities
+skimr
+janitor
+lubridate
+scales
+glue
+
+# Statistics
+broom
+modelr
+
+# Allowed base packages
+stats
+utils
+graphics
+grDevices
+methods
+base
